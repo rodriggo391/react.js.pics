@@ -1,0 +1,77 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+export default function App() {}
+const Header = () => {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "#555",
+    padding: "10px",
+    fontFamily: "new times roman",
+    textAlign: "center",
+    border: "3px",
+    borderRadius: "4px",
+  };
+  const estilo2 = {
+    textAlign: "center",
+    border: "10px",
+    borderRadius: "0px",
+    color: "white",
+    backgroundColor: "#234",
+    padding: "7px",
+    fontFamily: "calibri",
+  };
+  const estilo = {
+    textAlign: "center",
+    border: "10px",
+    borderRadius: "0px",
+    color: "white",
+    backgroundColor: "#234",
+    padding: "7px",
+    fontFamily: "calibri",
+  };
+  return (
+    <>
+      <h1 style={myStyle}>Home Page</h1>
+      <p style={estilo2}>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.
+      </p>
+      <img
+        src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+        alt="new"
+      />
+      <p style={estilo}>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.
+      </p>
+      <img
+        src="https://1.bp.blogspot.com/-Ot5BkK2HBtw/WgMfbnLX9oI/AAAAAAABIW8/tqqhkd7EY58l2mJwSRPTHI88IV3nXNf_wCLcBGAs/s400/4511108-coffee-cup-wallpapers-680x386.png"
+        alt="new"
+      />
+    </>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header />);
